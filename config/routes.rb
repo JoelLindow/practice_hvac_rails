@@ -4,5 +4,8 @@ Rails.application.routes.draw do
 
   get '/about', to: 'main#about'
   get '/main', to: 'main#index'
+  get '/residential', to: 'main#gallery_residential'
+  get '/commercial', to: 'main#gallery_commercial'
+  get '/contact', to: 'main#contact'
 
 end

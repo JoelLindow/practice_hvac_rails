@@ -6,4 +6,13 @@ class MainController < ApplicationController
   def about
   end
 
+  def gallery_commercial
+  end
+
+  def gallery_residential
+  end
+
+  def contact
+  end
+
 end
