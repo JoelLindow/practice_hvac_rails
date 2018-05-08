@@ -1,3 +1,4 @@
+
 class MainController < ApplicationController
 
   def index
@@ -13,6 +14,10 @@ class MainController < ApplicationController
   end
 
   def contact
+  end
+
+  def create
+    binding.pry
   end
 
 end

@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get '/residential', to: 'main#gallery_residential'
   get '/commercial', to: 'main#gallery_commercial'
   get '/contact', to: 'main#contact'
+  post '/contact', to: 'main#create'
 
 end
