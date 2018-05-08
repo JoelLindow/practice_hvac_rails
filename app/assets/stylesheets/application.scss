@@ -43,6 +43,9 @@ p.foot-text{
 .fixed-bottom{
   background: linear-gradient(to right, lightgrey, grey, lightgrey);
 }
+
+
+// ***** OLD STYLE JUMBORTON IMAGE WITH GRAPHIC
 .bg {
     /* The image used */
     background-image: url("http://www.globalhealthpolicyforum.org/g/2016/12/decorating-luxury-large-cream-velvet-upholstered-coffee-table-also-cream-sofa-in-modern-living-room-plus-crystal-chandelier-best-interior-decor-for-your-home-using-upholstered.jpg");
@@ -60,6 +63,33 @@ p.foot-text{
 
 }
 
+// GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL START
 .portfolio-item {
   margin-bottom: 30px;
 }
+// GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
+
+
+
+
+
+
+
+// INDEX PAGE PICTURE HEADER STUFF START
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://www.globalhealthpolicyforum.org/g/2016/12/decorating-luxury-large-cream-velvet-upholstered-coffee-table-also-cream-sofa-in-modern-living-room-plus-crystal-chandelier-best-interior-decor-for-your-home-using-upholstered.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.card {
+  height: 100%;
+}
+
+.index-row{
+  margin-bottom: 30px;
+}
+// INDEX PAGE PICTURE HEADER STUFF STOP
