@@ -2,6 +2,7 @@
 class MainController < ApplicationController
 
   def index
+
   end
 
   def about
@@ -17,7 +18,9 @@ class MainController < ApplicationController
   end
 
   def create
-    binding.pry
+    ContactMailer.lead_email(params).deliver_now
+    flash[:notice] = "Your Message has been sent! Thank you! Someone will contact you very soon!"
+    redirect_to root_path
   end
 
 end
