@@ -17,7 +17,7 @@ class MainController < ApplicationController
   end
 
   def create
-    binding.pry
+    ContactMailer.lead_email(params).deliver_now
   end
 
 end

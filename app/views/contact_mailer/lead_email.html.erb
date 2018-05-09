@@ -1,0 +1,14 @@
+<h2>LOGIC HVAC/R LLC WEB ACTIVITY</h2>
+<h4>SOMEBODY JUST SENT YOU THEIR CONTACT INFORMATION</h4>
+<p style='font-weight: bold;'>Name:</p>
+<%= @data[:name] %>
+<p style='font-weight: bold;'>Email:</p>
+<%= @data[:email] %>
+<p style='font-weight: bold;'>Phone Number:</p>
+<%= @data[:phone] %>
+<p style='font-weight: bold;'>Street Address:</p>
+<%= "#{@data[:street_address]} #{@data[:city]}, #{@data[:city]} #{@data[:zip]} "%>
+<p style='font-weight: bold;'>Property Type:</p>
+<%= @data[:property_type] %>
+<p style='font-weight: bold;'>Message from Contact</p>
+<%= @data[:message] %>
