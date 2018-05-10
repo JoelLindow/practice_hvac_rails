@@ -63,21 +63,32 @@ p.foot-text{
 //
 // }
 
+
+
+
+
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL START
 .portfolio-item {
   margin-bottom: 30px;
+}
+header.business-header{
+  padding-top: 20px;
+}
+div.jumbotron.jumbotron-fluid.blocky {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background:rgba(255,255,255,0.7);
+}
+.blocky{
+  max-height: 100%;
 }
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
 
 
-
-
-
-
 // INDEX PAGE PICTURE HEADER STUFF START
 .business-header {
-  height: 50vh;
+  height: 40vh;
   min-height: 300px;
   background: url('http://www.globalhealthpolicyforum.org/g/2016/12/decorating-luxury-large-cream-velvet-upholstered-coffee-table-also-cream-sofa-in-modern-living-room-plus-crystal-chandelier-best-interior-decor-for-your-home-using-upholstered.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
@@ -88,8 +99,21 @@ p.foot-text{
 .card {
   height: 100%;
 }
-
 .index-row{
   margin-bottom: 30px;
 }
 // INDEX PAGE PICTURE HEADER STUFF STOP
+
+
+
+
+.form-field{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.sub-button{
+  margin-bottom: 40px;
+}
+.email-logo{
+  width: 100px;
+}
