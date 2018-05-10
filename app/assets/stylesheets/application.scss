@@ -111,7 +111,20 @@ div.jumbotron.jumbotron-fluid.blocky {
 }
 // INDEX PAGE PICTURE HEADER STUFF STOP
 
+// PROFILE PAGE STYLING START
+div.col-md-5.profile{
+  background-color: lightgrey;
+  min-height: 60%;
+}
+// PROFILE PAGE STYLING STOP
 
+// CONTACT PAGE STYLING START
+div.col-md-4.contact-text{
+  background-color: lightgrey;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+// CONTACT PAGE STYLING STOP
 
 
 .form-field{
