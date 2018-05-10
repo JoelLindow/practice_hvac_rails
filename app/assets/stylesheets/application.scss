@@ -27,6 +27,10 @@ body{
   width: 50%;
   max-width: 300px;
 }
+.top-logo-div{
+  background-color: lightgrey;
+
+}
 .center-text{
   text-align: center;
 }
@@ -42,6 +46,9 @@ p.foot-text{
 }
 .fixed-bottom{
   background: linear-gradient(to right, lightgrey, grey, lightgrey);
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 //
