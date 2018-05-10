@@ -3,41 +3,42 @@
 </div> -->
 <div class="row">
   <div class="col-md-1"></div>
-  <div class="col-md-4 contact-text">
-    <h3>Please fill out the form and click 'Submit' when you're done. Someone will contact you as soon as possible.<br><br> We will never sell or share your personal information. Your comfort and privacy are our top concerns. </h3>
+  <div class="col-md-4">
+    <h1 class="title-text">Let us call you!</h1><br>
+    <h3 class="content-text">Please fill out the form and click 'Submit' when you're done. Someone will contact you as soon as possible.<br><br> We will never sell or share your personal information. Your comfort and privacy are our top concerns. </h3>
   </div>
   <div class="col-md-6">
     <%= form_with url: contact_path, local: true do |f| %>
-    <h4>Your Name</h4>
-    <%= text_field_tag 'name', nil, placeholder: "Your Name", class: 'form-field' %>
-    <h4>Your Email Address</h4>
-    <%= text_field_tag 'email', nil, placeholder: "homeowner@gmail.com", class: 'form-field' %>
-    <h4>Your Phone Number</h4>
-    <%= text_field_tag 'phone', nil, placeholder: "303-000-0000", class: 'form-field' %>
-    <h4>Street Address</h4>
-    <%= text_field_tag 'street_address', nil, placeholder: "123 Home Street", class: 'form-field' %>
+    <h4 class="title-text">Your Name</h4>
+    <%= text_field_tag 'name', nil, placeholder: "Your Name", class: 'form-field content-text' %>
+    <h4 class="title-text">Your Email Address</h4>
+    <%= text_field_tag 'email', nil, placeholder: "homeowner@gmail.com", class: 'form-field content-text' %>
+    <h4 class="title-text">Your Phone Number</h4>
+    <%= text_field_tag 'phone', nil, placeholder: "303-000-0000", class: 'form-field content-text' %>
+    <h4 class="title-text">Street Address</h4>
+    <%= text_field_tag 'street_address', nil, placeholder: "123 Home Street", class: 'form-field content-text' %>
     <div class="row">
       <div class="col-md-4">
-        <h4>City</h4>
-        <%= text_field_tag 'city', nil, placeholder: "Denver", class: 'form-field' %>
+        <h4 class="title-text">City</h4>
+        <%= text_field_tag 'city', nil, placeholder: "Denver", class: 'form-field content-text' %>
       </div>
       <div class="col-md-4">
-        <h4>State</h4>
-        <%= text_field_tag 'state', nil, value: "Colorado", class: 'form-field' %>
+        <h4 class="title-text">State</h4>
+        <%= text_field_tag 'state', nil, value: "Colorado", class: 'form-field content-text' %>
       </div>
       <div class="col-md-4">
-        <h4>Zip Code</h4>
-        <%= text_field_tag 'zip', nil, placeholder: "88888", class: 'form-field' %>
+        <h4 class="title-text">Zip Code</h4>
+        <%= text_field_tag 'zip', nil, placeholder: "88888", class: 'form-field content-text' %>
       </div>
     </div>
-    <h4>Property Type</h4>
-    <%= radio_button_tag :property_type, 'Residential', class: 'form-field'%>
+    <h4 class="title-text">Property Type</h4>
+    <%= radio_button_tag :property_type, 'Residential', class: 'form-field content-text'%>
     <%= label_tag 'Residential' %>
-    <%= radio_button_tag :property_type, 'Commercial', class: 'form-field'%>
+    <%= radio_button_tag :property_type, 'Commercial', class: 'form-field content-text'%>
     <%= label_tag 'Commercial' %>
     <br>
-    <h4>Anything else you want to tell us?</h4>
-    <%= text_area_tag 'message', nil, placeholder: "Add text here.....", class: 'form-field' %>
+    <h4 class="title-text">Anything else you want to tell us?</h4>
+    <%= text_area_tag 'message', nil, placeholder: "Add text here.....", class: 'form-field content-text' %>
     <br>
     <%= f.submit 'Submit', class: 'sub-button' %>
     <% end %>
