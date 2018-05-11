@@ -59,6 +59,7 @@ p.foot-text{
     font-size: 20px;
 }
 
+
 //
 // // ***** OLD STYLE JUMBOTRON IMAGE WITH GRAPHIC
 // .bg {
@@ -135,12 +136,18 @@ div.col-md-4.contact-text{
 // CONTACT PAGE STYLING STOP
 //
 // FORM PAGE STYLING START
+h4.title-text{
+  margin-bottom: 0px;
+}
 .form-field{
   width: 100%;
   margin-bottom: 5px;
 }
 .sub-button{
   margin-bottom: 40px;
+}
+.contact-text-box{
+  background-color: whitesmoke;
 }
 // FORM PAGE STYLING STOP
 //
