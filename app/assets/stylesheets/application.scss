@@ -41,12 +41,15 @@ body{
 }
 p.foot-text{
   margin-bottom: 1px;
-  font-size: 8px;
+  font-size: 10px;
+  color: white
+
 }
 .fixed-bottom{
-  background: linear-gradient(to right, lightgrey, grey, lightgrey);
+  background-color: #343a40;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: 'Lato', sans-serif;
 }
 .title-text{
   font-family: 'Rambla', sans-serif;
@@ -123,9 +126,9 @@ div.jumbotron.jumbotron-fluid.blocky {
 // INDEX PAGE PICTURE HEADER STUFF STOP
 //
 // PROFILE PAGE STYLING START
-div.col-md-5.profile{
-  background-color: lightgrey;
-  min-height: 60%;
+.profile-card{
+  margin-top: 20px;
+  padding: 10px;
 }
 // PROFILE PAGE STYLING STOP
 //
@@ -151,7 +154,7 @@ h4.title-text{
 .contact-text-box{
   background-color: whitesmoke;
   padding-top: 20px;
-  padding-bottom: 20px;  
+  padding-bottom: 20px;
   margin-top: 20px;
 }
 // FORM PAGE STYLING STOP
