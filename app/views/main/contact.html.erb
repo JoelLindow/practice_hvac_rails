@@ -12,25 +12,25 @@
     <%= form_with url: contact_path, local: true do |f| %>
     <br>
     <h4 class="title-text center">Your Name</h4>
-    <%= text_field_tag 'name', nil, placeholder: "Your Name", class: 'form-field content-text' %>
+    <%= text_field_tag 'name', nil, class: 'form-field content-text' %>
     <h4 class="title-text center">Your Email Address</h4>
-    <%= text_field_tag 'email', nil, placeholder: "homeowner@gmail.com", class: 'form-field content-text' %>
+    <%= text_field_tag 'email', nil, class: 'form-field content-text' %>
     <h4 class="title-text center">Your Phone Number</h4>
-    <%= text_field_tag 'phone', nil, placeholder: "303-000-0000", class: 'form-field content-text' %>
+    <%= text_field_tag 'phone', nil, class: 'form-field content-text' %>
     <h4 class="title-text center">Street Address</h4>
-    <%= text_field_tag 'street_address', nil, placeholder: "123 Home Street", class: 'form-field content-text' %>
+    <%= text_field_tag 'street_address', nil, class: 'form-field content-text' %>
     <div class="row">
       <div class="col-md-4">
         <h4 class="title-text center">City</h4>
-        <%= text_field_tag 'city', nil, placeholder: "Denver", class: 'form-field content-text' %>
+        <%= text_field_tag 'city', nil, class: 'form-field content-text' %>
       </div>
       <div class="col-md-4">
         <h4 class="title-text center">State</h4>
-        <%= text_field_tag 'state', nil, value: "Colorado", class: 'form-field content-text' %>
+        <%= text_field_tag 'state', nil, class: 'form-field content-text' %>
       </div>
       <div class="col-md-4">
         <h4 class="title-text center">Zip Code</h4>
-        <%= text_field_tag 'zip', nil, placeholder: "88888", class: 'form-field content-text' %>
+        <%= text_field_tag 'zip', nil, class: 'form-field content-text' %>
       </div>
     </div>
     <h4 class="title-text center">Property Type</h4>

@@ -101,6 +101,7 @@ div.jumbotron.jumbotron-fluid.blocky {
 .blocky{
   max-height: 100%;
 }
+
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
 .card{
@@ -130,6 +131,12 @@ div.jumbotron.jumbotron-fluid.blocky {
   margin-top: 20px;
   padding: 10px;
 }
+.profile-pic{
+  width: 100%;
+}
+ .profile-title{
+   margin-top: 10px;
+ }
 // PROFILE PAGE STYLING STOP
 //
 // CONTACT PAGE STYLING START
@@ -138,6 +145,7 @@ div.col-md-4.contact-text{
   margin-bottom: 40px;
   padding-top: 40px;
 }
+
 // CONTACT PAGE STYLING STOP
 //
 // FORM PAGE STYLING START
