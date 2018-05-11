@@ -28,8 +28,8 @@ body{
   max-width: 300px;
 }
 .top-logo-div{
-  background-color: lightgrey;
-
+  // background-color: whitesmoke;
+  background-image: url(https://i.imgur.com/dh7obkN.png);
 }
 .center-text{
   text-align: center;
@@ -100,7 +100,9 @@ div.jumbotron.jumbotron-fluid.blocky {
 }
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
-
+.card{
+  box-shadow: 5px 5px #dddddd;
+}
 
 // INDEX PAGE PICTURE HEADER STUFF START
 .business-header {
@@ -148,6 +150,9 @@ h4.title-text{
 }
 .contact-text-box{
   background-color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  margin-top: 20px;
 }
 // FORM PAGE STYLING STOP
 //
