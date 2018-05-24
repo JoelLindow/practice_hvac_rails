@@ -61,7 +61,13 @@ p.foot-text{
 }
 .nav-font{
   font-family: 'Rambla', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
+}
+a.nav-link{
+  margin-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
 }
 
 
@@ -193,6 +199,23 @@ h4.title-text{
   margin-bottom: 50px;
 }
 // FORM PAGE STYLING STOP
+
+//MOBILE STUFF START
+button.navbar-toggler {
+  height: 90px;
+}
+.navbar-toggler-icon {
+  font-size: 30px;
+}
+li.nav-item{
+  font-size: 24px;
+}
+.dropdown-item{
+  font-size: 20px;
+}
+
+//MOBILE STUFF START
+
 //
 // Mailer Styling (not working yet)
 .email-logo{
