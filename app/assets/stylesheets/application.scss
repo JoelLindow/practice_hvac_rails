@@ -19,7 +19,9 @@
 body{
   margin-left: 20px;
   margin-right: 20px;
+  background-color: whitesmoke;
 }
+
 .center_image {
   display: block;
   margin-left: auto;
@@ -58,8 +60,8 @@ p.foot-text{
   font-family: 'Lato', sans-serif;
 }
 .nav-font{
-    font-family: 'Rambla', sans-serif;
-    font-size: 20px;
+  font-family: 'Rambla', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -92,16 +94,15 @@ p.foot-text{
 }
 header.business-header{
   padding-top: 20px;
+  height: 80%;
+  padding-bottom: 10%;
 }
 div.jumbotron.jumbotron-fluid.blocky {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background:rgba(255,255,255,0.9);
+  margin-bottom: 5px;
 }
-.blocky{
-  max-height: 100%;
-}
-
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
 .card{
@@ -110,9 +111,9 @@ div.jumbotron.jumbotron-fluid.blocky {
 
 // INDEX PAGE PICTURE HEADER STUFF START
 .business-header {
-  height: 40vh;
+  // height: 80%;
   min-height: 300px;
-  background: url('http://www.globalhealthpolicyforum.org/g/2016/12/decorating-luxury-large-cream-velvet-upholstered-coffee-table-also-cream-sofa-in-modern-living-room-plus-crystal-chandelier-best-interior-decor-for-your-home-using-upholstered.jpg') center center no-repeat scroll;
+  background: url('https://i.imgur.com/SkxAX4z.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -124,20 +125,45 @@ div.jumbotron.jumbotron-fluid.blocky {
 .index-row{
   margin-bottom: 30px;
 }
+
+.asize {
+  width: 25%;
+}
+.bsize {
+  width: 75%;
+}
+
+
+
+
 // INDEX PAGE PICTURE HEADER STUFF STOP
 //
-// PROFILE PAGE STYLING START
-.profile-card{
-  margin-top: 20px;
+// ABOUTPAGE STYLING START
+.about-pic-card {
   padding: 10px;
+  padding-top: 24px;
 }
-.profile-pic{
+.profile-pic {
   width: 100%;
+  max-width: 300px;
 }
- .profile-title{
-   margin-top: 10px;
- }
-// PROFILE PAGE STYLING STOP
+.reference-content {
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+.reference-signature {
+  font-size: 28px;
+  text-align: right;
+}
+.reference-city{
+  font-size: 18px;
+  text-align: right;
+}
+.reference-card{
+  margin-bottom: 10px;
+}
+
+// ABOUT PAGE STYLING STOP
 //
 // CONTACT PAGE STYLING START
 div.col-md-4.contact-text{
