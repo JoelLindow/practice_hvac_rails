@@ -47,7 +47,6 @@ p.foot-text{
   margin-bottom: 1px;
   font-size: 10px;
   color: white
-
 }
 .fixed-bottom{
   background-color: #343a40;
@@ -65,16 +64,25 @@ p.foot-text{
   font-family: 'Rambla', sans-serif;
   font-size: 24px;
 }
+.big-heart-font{
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+}
 a.nav-link{
   margin-right: 20px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+.nav-link{
 }
 .bigger-title{
   font-size: 40px;
 }
 .bigger-content{
   font-size: 20px;
+}
+.tight-hr{
+  margin: 5px;
 }
 
 
@@ -89,7 +97,7 @@ header.business-header{
   padding-bottom: 10%;
 }
 div.jumbotron.jumbotron-fluid.blocky {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
   background:rgba(255,255,255,0.9);
   margin-bottom: 5px;
@@ -113,14 +121,15 @@ div.jumbotron.jumbotron-fluid.blocky {
 .index-row{
   margin-bottom: 30px;
 }
-
 .asize {
   width: 25%;
 }
 .bsize {
   width: 75%;
 }
-
+.mainest-text{
+  font-size: 70px;
+}
 
 
 
@@ -184,13 +193,13 @@ h4.title-text{
 
 //MOBILE STUFF START
 button.navbar-toggler {
-  height: 90px;
+  height: 80px;
 }
 .navbar-toggler-icon {
   font-size: 30px;
 }
 li.nav-item{
-  font-size: 24px;
+  font-size: 30px;
 }
 .dropdown-item{
   font-size: 20px;
