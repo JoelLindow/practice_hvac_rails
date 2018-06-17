@@ -45,8 +45,8 @@ body{
 }
 p.foot-text{
   margin-bottom: 1px;
-  font-size: 10px;
-  color: white
+  font-size: 12px;
+  color: white;
 }
 .fixed-bottom{
   background-color: #343a40;
@@ -73,7 +73,8 @@ a.nav-link{
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.nav-link{
+.navbar-dark .navbar-nav .nav-link{
+  color: whitesmoke;
 }
 .bigger-title{
   font-size: 40px;
