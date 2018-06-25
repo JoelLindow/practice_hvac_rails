@@ -26,10 +26,9 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 300px;
+  max-width: 200px;
 }
 .top-logo-div{
-  // background-color: whitesmoke;
   background-image: url(https://i.imgur.com/dh7obkN.png);
 }
 .center-text{
@@ -38,10 +37,8 @@ body{
 .card{
   box-shadow: 5px 5px #dddddd;
 }
-.gallery-banner{
-  color: white;
-  // background-color: grey;
-  background: linear-gradient(to right, lightgrey, grey, lightgrey);
+.card-body-less-pad{
+  padding: 10px;
 }
 p.foot-text{
   margin-bottom: 1px;
@@ -66,7 +63,9 @@ p.foot-text{
 }
 .big-heart-font{
   font-family: 'Dancing Script', cursive;
-  font-size: 65px;
+  font-size: 100px;
+  text-shadow: 2px 2px #666666;
+  color: whitesmoke;
 }
 a.nav-link{
   margin-right: 20px;
@@ -85,9 +84,15 @@ a.nav-link{
 .tight-hr{
   margin: 5px;
 }
-
-
-
+.lead{
+  padding: 40px;
+ text-align: center;
+ display: table-cell;
+ vertical-align: middle;
+}
+p.lead.content-text.bigger-content.center-text{
+  padding: 0%;
+}
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL START
 .portfolio-item {
   margin-bottom: 30px;
@@ -100,8 +105,9 @@ header.business-header{
 div.jumbotron.jumbotron-fluid.blocky {
   padding-top: 10px;
   padding-bottom: 30px;
-  background:rgba(255,255,255,0.9);
+  // background:rgba(255,255,255,0.9);
   margin-bottom: 5px;
+  background: rgba(255, 255, 255, 0.7);
 }
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
@@ -185,10 +191,9 @@ h4.title-text{
 }
 .contact-text-box{
   background-color: whitesmoke;
-  // padding-top: 20px;
-  // padding-bottom: 20px;
+  height: auto;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 // FORM PAGE STYLING STOP
 
