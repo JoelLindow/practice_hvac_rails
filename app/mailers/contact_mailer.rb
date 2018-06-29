@@ -4,6 +4,6 @@ class ContactMailer < ApplicationMailer
   def lead_email(params)
     @data = params
     @url  = 'http://example.com/login'
-    mail(to: 'logichvaccolorado@gmail.com', subject: 'IMPORTANT - POSSBILE CUSTOMER LEAD')
+    mail(to: 'logichvaccolorado@gmail.com', subject: 'IMPORTANT - POSSIBLE CUSTOMER LEAD')
   end
 end
