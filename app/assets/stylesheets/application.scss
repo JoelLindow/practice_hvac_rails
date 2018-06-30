@@ -27,7 +27,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 200px;
+  max-width: 300px;
 }
 .top-logo-div{
   background-image: url(https://i.imgur.com/dh7obkN.png);
@@ -109,7 +109,7 @@ div.jumbotron.jumbotron-fluid.blocky {
   padding-bottom: 30px;
   // background:rgba(255,255,255,0.9);
   margin-bottom: 5px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.65);
 }
 // GALLERY PICTURE CARD LOWER MARGIN FOR COMMERCIAL AND RESIDENTIAL STOP
 
@@ -201,10 +201,18 @@ h4.title-text{
 
 //MOBILE STUFF START
 button.navbar-toggler {
-  height: 80px;
+  // height: 60px;
+  // border-style: dashed;
+  // border-width: medium;
+  border-color: yellow;
+}
+button.navbar-toggler h4{
+  color: yellow;
+  font-size: 40px;
 }
 .navbar-toggler-icon {
-  font-size: 30px;
+  font-size: 40px;
+  color: yellow;
 }
 li.nav-item{
   font-size: 30px;
