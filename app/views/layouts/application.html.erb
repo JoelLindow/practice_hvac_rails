@@ -23,6 +23,12 @@
         <div class="top-logo-div">
           <img class="center_image" src="https://i.imgur.com/cu9llrQ.png" alt="Main Logo">
         </div>
+        <% if flash[:notice] %>
+        <div class="alert alert-success center-text"><h2> <%= flash[:notice] %></h2></div>
+        <% end %>
+
+        <%= yield %>
+
         <nav class="navbar navbar-expand-xxl navbar-dark bg-dark nav-font">
           <button class="navbar-toggler center_image" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,22 +53,24 @@
               <li class="nav-item">
                 <a class="nav-link  center-text" href="/contact">Contact</a>
               </li>
+              <div class="buttons">
+                <button type="button" name="button">Call Us</button><br>
+                <button type="button" name="button">Email Us</button><br>
+                <button type="button" name="button">Have us call You</button>
+              </div>
+              <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
+
             </ul>
           </div>
+
         </nav>
-        <% if flash[:notice] %>
-        <div class="alert alert-success center-text"><h2> <%= flash[:notice] %></h2></div>
-        <% end %>
-
-        <%= yield %>
-
-        <div class="fixed-bottom center-text">
-          <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
-        </div>
       </div>
 
       <div class="col-lg-2 col-xl-3">
         <!-- Dynamic Body Margin -->
+        <!-- <div class="fixed-bottom center-text">
+          <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
+        </div> -->
       </div>
     </div>
     <!-- ^^ Closes row class -->
