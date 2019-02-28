@@ -15,7 +15,7 @@
 
     <div class="row">
 
-      <div class="col-lg-2 col-xl-3">
+      <div class="col-lg-2 col-xl-3 margin-black">
         <!-- Dynamic Body Bargin -->
       </div>
 
@@ -27,22 +27,24 @@
         <div class="alert alert-success center-text"><h2> <%= flash[:notice] %></h2></div>
         <% end %>
 
-        <%= yield %>
 
         <nav class="navbar navbar-expand-xxl navbar-dark bg-dark nav-font">
           <button class="navbar-toggler center_image" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="nav-burger">MENU</span>
             <!-- <h4>~ Menu ~</h4> -->
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+              <hr>
               <li class="nav-item">
                 <a class="nav-link center-text" href="/main">Home</a>
               </li>
+              <hr>
               <li class="nav-item">
                 <a class="nav-link center-text" href="/about">About Us</a>
               </li>
+              <hr>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle  center-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -50,29 +52,26 @@
                   <a class="dropdown-item" href="/commercial">Commercial</a>
                 </div>
               </li>
+              <hr>
               <li class="nav-item">
                 <a class="nav-link  center-text" href="/contact">Contact</a>
               </li>
-              <div class="buttons">
-                <button type="button" name="button">Call Us</button><br>
-                <button type="button" name="button">Email Us</button><br>
-                <button type="button" name="button">Have us call You</button>
-              </div>
-              <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
+              <hr>
+              <p class="foot-text"><strong style="color:red">(720)366-3781</strong><br>LogicHVACColorado@Gmail.com</p>
 
             </ul>
           </div>
-
         </nav>
+        <%= yield %>
       </div>
 
-      <div class="col-lg-2 col-xl-3">
+      <div class="col-lg-2 col-xl-3 margin-black">
         <!-- Dynamic Body Margin -->
         <!-- <div class="fixed-bottom center-text">
-          <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
-        </div> -->
-      </div>
+        <p class="foot-text"><strong>720.366.3781 - LogicHVACColorado@Gmail.com</strong></p>
+      </div> -->
     </div>
-    <!-- ^^ Closes row class -->
-  </body>
-  </html>
+  </div>
+  <!-- ^^ Closes row class -->
+</body>
+</html>
