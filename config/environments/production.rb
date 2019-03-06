@@ -102,3 +102,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 #
+
+# Fix Mailer System Errors
+config.action_mailer.raise_delivery_errors = false
