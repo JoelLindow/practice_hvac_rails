@@ -1,79 +1,21 @@
 <div class="container">
 
-  <div class="row">
-    <div class="col-md-12 col-lg-5">
-      <h2 class="mt-4 title-text bigger-title">Contact Us</h2>
-      <hr>
-      <address class="content-text bigger-content">
-        <strong>Logic HVAC & Refrigeration</strong>
-        <br>Denver, CO 88888
-        <br>
-      </address>
-      <address class="content-text bigger-content">
-        <abbr title="Phone">P:</abbr>
-        (720) 366-3781
-        <br>
-        <abbr title="Email">E:</abbr>
-        <a href="mailto:LogicHVACColorado">LogicHVACColorado@Gmail.com</a>
-        <br><br>
-      </address>
-      <h2 class="mt-4 title-text bigger-title">Want us to call you?</h2>
-      <hr>
-      <p class="content-text bigger-content">
-        Fill out the contact form and click the Submit button.<br>
-        One of our team will be alerted and will call you as soon as they are available.<br><br>
-        We will never share or sell your personal information.
-      </p>
-    </div>
-    <div class="col-md-12 col-lg-7">
-      <h2 class="mt-4 title-text bigger-title">Contact Form</h2>
-      <hr>
-      <div class="contact-text-box card container">
+    <h2 class="mt-4 title-text bigger-title">Contact Us</h2>
+    <hr>
+      <h2>Logic HVAC & Refrigeration</h2>
+      <h3>Denver, CO 80233</h3>
+      <h4>(720) 366-3781</h4>
 
-        <%= form_with url: contact_path, local: true do |f| %>
-        <br>
-        <h4 class="title-text center">Your Name</h4>
-        <%= text_field_tag 'name', nil, class: 'form-field content-text' %>
-        <div class="row">
-          <div class="col-md-6">
-            <h4 class="title-text center">Your Email Address</h4>
-            <%= text_field_tag 'email', nil, class: 'form-field content-text' %>
-          </div>
-          <div class="col-md-6">
-            <h4 class="title-text center">Your Phone Number</h4>
-            <%= text_field_tag 'phone', nil, class: 'form-field content-text' %>
-          </div>
-        </div>
-        <h4 class="title-text center">Street Address</h4>
-        <%= text_field_tag 'street_address', nil, class: 'form-field content-text' %>
-        <div class="row">
-          <div class="col-md-4">
-            <h4 class="title-text center">City</h4>
-            <%= text_field_tag 'city', nil, class: 'form-field content-text' %>
-          </div>
-          <div class="col-md-4">
-            <h4 class="title-text center">State</h4>
-            <%= text_field_tag 'state', nil, class: 'form-field content-text' %>
-          </div>
-          <div class="col-md-4">
-            <h4 class="title-text center">Zip Code</h4>
-            <%= text_field_tag 'zip', nil, class: 'form-field content-text' %>
-          </div>
-        </div>
-        <h4 class="title-text center">Property Type</h4>
-        <%= radio_button_tag :property_type, 'Residential', class: 'form-field content-text'%>
-        <%= label_tag 'Residential' %>
-        <%= radio_button_tag :property_type, 'Commercial', class: 'form-field content-text'%>
-        <%= label_tag 'Commercial' %>
-        <br>
-        <h4 class="title-text center">Anything else you want to tell us?</h4>
-        <%= text_area_tag 'message', nil, placeholder: "Add text here.....", class: 'form-field content-text' %>
-        <br>
-        <%= f.submit 'Submit', class: 'sub-button' %>
-        <% end %>
-      </div>
-    </div>
-  </div>
+      <br>
+    <address class="content-text bigger-content">
+      <abbr title="Phone">P: (720) 366-3781</abbr>
+
+      <br>
+      <abbr title="Email">E: <a href="mailto:LogicHVACColorado">LogicHVACColorado@Gmail.com</a></abbr>
+      <br><br>
+    </address>
+
+
 </div>
 <div class="end-of-gallery">
   <hr>

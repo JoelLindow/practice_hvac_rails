@@ -43,7 +43,7 @@ body{
 }
 p.foot-text{
   margin-bottom: 1px;
-  font-size: 12px;
+  font-size: 20px;
   color: white;
 }
 .fixed-bottom{
@@ -144,6 +144,10 @@ div.jumbotron.jumbotron-fluid.blocky {
 
 // INDEX PAGE PICTURE HEADER STUFF STOP
 //
+
+.index_graphic{
+  width: 100%;
+}
 // ABOUTPAGE STYLING START
 .about-pic-card {
   padding: 10px;
